@@ -1,0 +1,40 @@
+$background: #e6ecf1;
+$textColor: #89919d;
+
+.react-custom-switch {
+  display: inline-block;
+  background: $background;
+  position: relative;
+  padding: 2px;
+  border-radius: 4px;
+  box-sizing: content-box;
+
+  .slider-content {
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    box-sizing: border-box;
+  }
+
+  .slider-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    transition: all .5s;
+    border-radius: 2px;
+  }
+
+  .switch-item {
+    position: relative;
+    display: inline-block;
+    padding: 0 30px;
+    cursor: pointer;
+    color: $textColor;
+    z-index: 1;
+    background: transparent;
+  }
+}
