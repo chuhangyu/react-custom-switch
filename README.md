@@ -1,5 +1,5 @@
 # react-custom-switch
-react定制化switch![switch](switch.gif)
+react定制化switch![switch](https://s1.ax1x.com/2020/10/02/0QhPCF.gif)
 
 ## usage
 ```
