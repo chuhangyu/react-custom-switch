@@ -1,7 +1,7 @@
 # react-custom-switch
 react定制化switch![switch](switch.gif)
 
-## uasge
+## usage
 ```
 npm i react-custom-switch -S
 ```
