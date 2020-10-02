@@ -1,0 +1,30 @@
+.react-custom-switch {
+  display: inline-block;
+  background: #e6ecf1;
+  position: relative;
+  padding: 2px;
+  border-radius: 4px;
+  box-sizing: content-box; }
+  .react-custom-switch .slider-content {
+    position: absolute;
+    top: 2px;
+    bottom: 2px;
+    left: 2px;
+    right: 2px;
+    box-sizing: border-box; }
+  .react-custom-switch .slider-box {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #fff;
+    transition: all .5s;
+    border-radius: 2px; }
+  .react-custom-switch .switch-item {
+    position: relative;
+    display: inline-block;
+    padding: 0 30px;
+    cursor: pointer;
+    color: #89919d;
+    z-index: 1;
+    background: transparent; }

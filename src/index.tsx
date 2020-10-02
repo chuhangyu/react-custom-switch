@@ -1,5 +1,4 @@
 import * as React from 'react';
-import './index.scss';
 
 const { useState, useMemo, useEffect, useCallback } = React;
 
@@ -16,7 +15,7 @@ interface Iprops {
 }
 
 const defaultDataSource: switchDataSource[] = [
-  { label: '测试类目1', value: 'value1' }, 
+  { label: '测试类目122', value: 'value1' }, 
   { label: '测试类目2类目2', value: 'value2' }, 
   { label: '测试类目3', value: 'value3' }, 
 ]
